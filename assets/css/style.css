@@ -5,8 +5,6 @@
 .carousel-item {
     height: 85vh;
     min-height: 300px;
-    /* background: no-repeat scroll center scroll; */
-    
 }
 .carousel-item::before {
     content: "";
@@ -20,8 +18,7 @@
     opacity: 0.7;
 }
 .carousel-caption { 
-   width: 60%;
-   margin: 0px auto 120px;
+   margin-bottom: 100px;
    
 }
 .carousel-caption h5 {
@@ -37,6 +34,11 @@
     margin-top: 20px;
 }
 /* slider end */
+/* section 3 start */
+.explore {
+    background-color: #F4FAFD;
+}
+/* section 3 end */
 /* reponsive slider start*/
 /* for mobile */
 @media screen and (max-width: 576px){
@@ -65,22 +67,25 @@
         font-weight: 500;
         margin-top: 10px;
     }
-
+    .course-pic {
+        width: 100%;
+    }
+    .company {
+        display: none;
+    }
 }
 /* for tab */
 @media screen and (min-width: 577px) and (max-width: 992px){
     .carousel-item {
-        height: 500px;
+        height: 50vh;
     }
 
     .carousel-item img {
         height: 500px;
     }
     .carousel-caption { 
-        width: 80%;
-       
-        border: 2px solid red;
-       
+  
+       margin-bottom: 70px;
         
      }
      .carousel-caption h5 {
@@ -95,10 +100,10 @@
         font-size: 18px;
         font-weight: 500;
         margin-top: 10px;
+    }  
+    .company {
+        display: none;
     }
-
-    
 }
 
 /* reponsive slider end*/
-
