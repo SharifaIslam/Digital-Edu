@@ -73,6 +73,12 @@
     .company {
         display: none;
     }
+    .join{
+        text-align: center !important;
+    }
+    .faq-section {
+        width: 100% !important;
+    }
 }
 /* for tab */
 @media screen and (min-width: 577px) and (max-width: 992px){
@@ -103,6 +109,12 @@
     }  
     .company {
         display: none;
+    }
+    .join{
+        text-align: center !important;
+    }
+    .faq-section {
+        width: 100% !important;
     }
 }
 
